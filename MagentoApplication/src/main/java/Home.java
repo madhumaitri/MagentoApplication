@@ -13,5 +13,7 @@ this.driver=driver;
 public void clickOnMyacc()
 {
 	driver.findElement(myacc).click();
+	System.out.println("hello");
 }
+
 }
